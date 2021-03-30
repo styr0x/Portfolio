@@ -1,0 +1,127 @@
+
+
+html, body {
+    display: block;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: tomato;
+    overflow: hidden;
+}
+
+.parent {
+    display: grid;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.opponent {
+    height: auto;
+    max-width: 100%;
+}
+.avatar {
+    height: auto;
+    max-width: 100%;
+}
+
+.score {
+    position: absolute;
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 50vh;
+    margin-left: 43vw;
+}
+ .scorenumber {
+     transform: translate(0px, 40px);
+     font-size: 3rem;
+     margin-top: 0px;
+ }
+
+ .scoretext {
+    margin-top: -5vh;
+ }
+
+
+
+.button1 {
+    outline: none;
+    background: transparent;
+    border: none;
+    
+}
+
+.button1:hover {
+    animation-name: rotate; 
+    animation-duration: 0.8s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.8);}
+    100% {transform: scale(1);}
+    
+}
+
+.button2 {
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+.button2:hover {
+    animation-name: rotate; 
+    animation-duration: 0.8s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.button3 {
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+.button3:hover {
+    animation-name: rotate; 
+    animation-duration: 0.8s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.avatar {
+    margin-right: 100px;
+}
+
+.restartbtn {
+    visibility: hidden;
+    outline: none;
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 200px;
+    height: auto;
+    text-decoration: none;
+    
+}
+
+.reveal {
+    -webkit-animation: fadeIn 1.5s;
+    
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+
+
+
+
